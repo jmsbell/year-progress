@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>80s Year Progress</title>
+</head>
+<body>
+
+<!-- The container for the progress bar -->
+<div id="loading-bar">
+    <div id="progress-bar"></div>
+</div>
+
+<!-- Text to display the current year and completion percentage -->
+<div id="progress-text">
+    The year <span id="current-year"></span> is <span id="completion-percentage"></span> complete.
+</div>
+
+<!-- Buttons for static and live calculations -->
+<div id="buttons">
+    <button onclick="calculateProgress('static')">Calculate Once</button>
+    <button onclick="calculateProgress('live')">Live Percentage</button>
+</div>
+
+<!-- Include the JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
