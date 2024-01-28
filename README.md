@@ -1,3 +1,3 @@
 # year-progress
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/jmsbell/year-progress)
+This is a current year progress bar, which can calculate the current (static & dynamic) % year to end
