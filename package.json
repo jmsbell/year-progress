@@ -1,0 +1,15 @@
+{
+  "name": "year-progress",
+  "version": "1.0.0",
+  "description": "Year progress bar percentage view",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "year-progress"
+  },
+  "author": "jms.bell",
+  "license": "ISC"
+}
