@@ -12,6 +12,7 @@ function calculateProgress(type) {
     const progressBar = document.getElementById('progress-bar');
     const currentYearSpan = document.getElementById('current-year');
     const completionPercentageSpan = document.getElementById('completion-percentage');
+    const currentYearCopySpan = document.getElementById('current-year-copy'); // Get the copyright text element
 
     // Clear the live update interval if it exists
     clearInterval(liveUpdateInterval);
@@ -46,6 +47,9 @@ function calculateProgress(type) {
         // Start the live update loop
         liveUpdateInterval = setInterval(updateLive, 100);
     }
+
+    // Update the copyright text with the current year
+    currentYearCopySpan.innerText = new Date().getFullYear();
 }
 
 // Perform the static calculation when the page loads
