@@ -41,7 +41,7 @@ function calculateProgress(type) {
             // Update the progress bar and text
             progressBar.style.width = `${livePercentage}%`;
             currentYearSpan.innerText = currentYear;
-            completionPercentageSpan.innerText = livePercentage.toFixed(10) + '%';
+            completionPercentageSpan.innerText = livePercentage.toFixed(6) + '%';
         };
 
         // Start the live update loop
